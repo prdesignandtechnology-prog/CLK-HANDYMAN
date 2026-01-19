@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLK Handyman | Professional Home Repair & Maintenance in Utah</title>
+    <meta name="description" content="CLK Handyman offers trusted, professional home repair services in Utah. From drywall to assembly, we treat your home with respect. Licensed & Insured.">
+    
+    <!-- Google Fonts: Merriweather (Serif) & Lato (Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS (Configured for Archetype E) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'navy-charcoal': '#0f172a',
+                        'burnt-orange': '#c2410c', // WCAG 2.1 AA Compliant
+                        'burnt-orange-hover': '#9a3412',
+                        'soft-gray': '#f8fafc',
+                        'pure-white': '#ffffff',
+                    },
+                    fontFamily: {
+                        sans: ['Lato', 'sans-serif'],
+                        serif: ['Merriweather', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- LocalBusiness Schema (JSON-LD) - HomeAndConstructionBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "CLK Handyman",
+      "image": "https://images.unsplash.com/photo-1581578731117-104f2a41272c?auto=format&fit=crop&q=80",
+      "@id": "https://clkhandyman.com",
+      "url": "https://clkhandyman.com",
+      "telephone": "+13854349056",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "4500 S Highland Dr",
+        "addressLocality": "Holladay",
+        "addressRegion": "UT",
+        "postalCode": "84117",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.6690,
+        "longitude": -111.8250
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="bg-pure-white text-navy-charcoal antialiased flex flex-col min-h-screen font-sans">
+
+    <!-- Accessibility Skip Link -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-burnt-orange focus:text-white focus:px-6 focus:py-3 focus:ring-4 focus:ring-navy-charcoal rounded shadow-lg font-bold">
+        Skip to main content
+    </a>
+
+    <!-- Top Bar -->
+    <div class="bg-navy-charcoal text-white text-xs py-2">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <span class="opacity-80"><i class="fa-solid fa-shield-halved mr-2 text-burnt-orange"></i> Licensed & Insured in Utah</span>
+            <a href="tel:+13854349056" class="hover:text-burnt-orange transition-colors font-bold">Call for a Free Estimate</a>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="bg-white border-b border-gray-100 sticky top-0 z-40">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <!-- Brand -->
+            <div class="flex items-center space-x-3">
+                <div class="bg-navy-charcoal text-white w-10 h-10 flex items-center justify-center rounded-sm shadow-sm">
+                    <i class="fa-solid fa-hammer text-lg"></i>
+                </div>
+                <div>
+                    <h1 class="font-serif font-black text-2xl text-navy-charcoal leading-none tracking-tight">CLK <span class="text-burnt-orange">Handyman</span></h1>
+                    <p class="text-[10px] text-gray-500 uppercase tracking-widest font-bold">Home Repair Services</p>
+                </div>
+            </div>
+
+            <!-- Desktop Actions -->
+            <div class="hidden md:flex items-center space-x-8">
+                <nav class="flex space-x-6 text-sm font-bold text-gray-600">
+                    <a href="#services" class="hover:text-burnt-orange transition-colors">Services</a>
+                    <a href="#projects" class="hover:text-burnt-orange transition-colors">Recent Work</a>
+                    <a href="#about" class="hover:text-burnt-orange transition-colors">About</a>
+                </nav>
+                <a href="tel:+13854349056" class="bg-white border-2 border-navy-charcoal hover:bg-navy-charcoal hover:text-white text-navy-charcoal font-bold py-2 px-6 rounded transition-all duration-300">
+                    (385) 434-9056
+                </a>
+            </div>
+
+            <!-- Mobile Phone Icon -->
+            <a href="tel:+13854349056" class="md:hidden text-burnt-orange text-2xl">
+                <i class="fa-solid fa-phone-volume"></i>
+            </a>
+        </div>
+    </header>
+
+    <main id="main-content" class="flex-grow">
+        <!-- Hero Section -->
+        <section class="relative bg-soft-gray py-20 md:py-32 overflow-hidden">
+            <div class="container mx-auto px-4 relative z-10 flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 pr-0 md:pr-12">
+                    <h2 class="font-serif font-bold text-4xl md:text-5xl lg:text-6xl mb-6 text-navy-charcoal leading-tight">
+                        Respecting Your Home,<br>
+                        <span class="text-burnt-orange italic">One Project at a Time.</span>
+                    </h2>
+                    <p class="text-gray-600 text-lg mb-8 leading-relaxed max-w-lg font-light">
+                        Professional handyman services for Holladay and Salt Lake City. From drywall repairs to furniture assembly, we deliver craftsmanship you can trust.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="tel:+13854349056" class="bg-burnt-orange hover:bg-burnt-orange-hover text-white text-center font-bold py-4 px-8 rounded shadow-lg transition-transform transform hover:-translate-y-0.5">
+                            Get a Quote
+                        </a>
+                        <a href="#services" class="bg-white hover:bg-gray-50 text-navy-charcoal text-center font-bold py-4 px-8 rounded shadow border border-gray-200 transition-colors">
+                            View Services
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 relative">
+                    <!-- Image Frame -->
+                    <div class="relative z-10 p-2 bg-white shadow-2xl rounded-sm rotate-1">
+                        <img src="https://images.unsplash.com/photo-1595814433015-e6f5ce69614e?auto=format&fit=crop&q=80" alt="Professional handyman fixing a cabinet" class="w-full h-auto rounded-sm">
+                    </div>
+                    <!-- Decorative Background Element -->
+                    <div class="absolute top-4 left-4 w-full h-full bg-navy-charcoal rounded-sm -z-0 rotate-1 opacity-10"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h3 class="font-serif font-bold text-3xl text-navy-charcoal mb-4">Quality Craftsmanship</h3>
+                    <div class="w-16 h-1 bg-burnt-orange mx-auto mb-4"></div>
+                    <p class="text-gray-500 max-w-2xl mx-auto font-light">
+                        We handle the "To-Do" list that you never get around to. Small jobs, big repairs, and everything in between.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Service 1 -->
+                    <div class="p-8 border border-gray-100 rounded hover:shadow-lg transition-shadow duration-300 bg-soft-gray group">
+                        <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-navy-charcoal mb-6 shadow-sm group-hover:text-burnt-orange transition-colors">
+                            <i class="fa-solid fa-fill-drip text-xl"></i>
+                        </div>
+                        <h4 class="font-serif font-bold text-xl mb-3 text-navy-charcoal">Painting & Drywall</h4>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Expert hole patching, texture matching, and interior painting. We leave your walls looking seamless and clean.
+                        </p>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="p-8 border border-gray-100 rounded hover:shadow-lg transition-shadow duration-300 bg-soft-gray group">
+                        <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-navy-charcoal mb-6 shadow-sm group-hover:text-burnt-orange transition-colors">
+                            <i class="fa-solid fa-screwdriver-wrench text-xl"></i>
+                        </div>
+                        <h4 class="font-serif font-bold text-xl mb-3 text-navy-charcoal">Assembly & Install</h4>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Furniture assembly (IKEA pros), TV mounting, shelving installation, and cabinet hardware updates.
+                        </p>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="p-8 border border-gray-100 rounded hover:shadow-lg transition-shadow duration-300 bg-soft-gray group">
+                        <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-navy-charcoal mb-6 shadow-sm group-hover:text-burnt-orange transition-colors">
+                            <i class="fa-solid fa-door-open text-xl"></i>
+                        </div>
+                        <h4 class="font-serif font-bold text-xl mb-3 text-navy-charcoal">Doors & Windows</h4>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Sticking doors, drafty windows, lock replacements, and screen repairs. Security and comfort restored.
+                        </p>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="p-8 border border-gray-100 rounded hover:shadow-lg transition-shadow duration-300 bg-soft-gray group">
+                        <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-navy-charcoal mb-6 shadow-sm group-hover:text-burnt-orange transition-colors">
+                            <i class="fa-solid fa-faucet text-xl"></i>
+                        </div>
+                        <h4 class="font-serif font-bold text-xl mb-3 text-navy-charcoal">Minor Plumbing</h4>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Leaky faucets, toilet repairs, garbage disposal replacement, and showerhead upgrades.
+                        </p>
+                    </div>
+
+                    <!-- Service 5 -->
+                    <div class="p-8 border border-gray-100 rounded hover:shadow-lg transition-shadow duration-300 bg-soft-gray group">
+                        <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-navy-charcoal mb-6 shadow-sm group-hover:text-burnt-orange transition-colors">
+                            <i class="fa-solid fa-bolt text-xl"></i>
+                        </div>
+                        <h4 class="font-serif font-bold text-xl mb-3 text-navy-charcoal">Minor Electrical</h4>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Light fixture replacement, ceiling fan installation, outlet swaps, and dimmer switch upgrades.
+                        </p>
+                    </div>
+
+                    <!-- Service 6 -->
+                    <div class="p-8 border border-gray-100 rounded hover:shadow-lg transition-shadow duration-300 bg-soft-gray group">
+                        <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-navy-charcoal mb-6 shadow-sm group-hover:text-burnt-orange transition-colors">
+                            <i class="fa-solid fa-trowel-bricks text-xl"></i>
+                        </div>
+                        <h4 class="font-serif font-bold text-xl mb-3 text-navy-charcoal">General Maintenance</h4>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Filter changes, smoke detector checks, gutter cleaning, and seasonal home maintenance tasks.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section id="about" class="py-20 bg-navy-charcoal text-white">
+            <div class="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-1/2">
+                     <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80" alt="Clean tools on a workbench" class="rounded shadow-2xl opacity-90 grayscale hover:grayscale-0 transition-all duration-700">
+                </div>
+                <div class="lg:w-1/2">
+                    <h3 class="font-serif font-bold text-3xl mb-6">Why Neighbors Trust CLK</h3>
+                    <p class="text-gray-400 text-lg mb-8 leading-relaxed font-light">
+                        We believe that showing up on time and cleaning up after ourselves is just as important as the repair itself. We are guests in your home, and we act like it.
+                    </p>
+                    
+                    <ul class="space-y-6">
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-burnt-orange mt-1 mr-4"></i>
+                            <div>
+                                <strong class="block font-bold text-white">Transparent Pricing</strong>
+                                <span class="text-gray-400 text-sm">We provide estimates upfront. No hidden fees or surprise upcharges.</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-burnt-orange mt-1 mr-4"></i>
+                            <div>
+                                <strong class="block font-bold text-white">Clean Work Area</strong>
+                                <span class="text-gray-400 text-sm">We treat your floors and furniture with respect, always using drop cloths and shoe covers.</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-burnt-orange mt-1 mr-4"></i>
+                            <div>
+                                <strong class="block font-bold text-white">Communication</strong>
+                                <span class="text-gray-400 text-sm">We text you when we're on the way. You'll never be left wondering where we are.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location / Contact -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col lg:flex-row bg-soft-gray rounded-lg overflow-hidden shadow-lg border border-gray-100">
+                    <!-- Contact Info -->
+                    <div class="lg:w-1/3 p-10 flex flex-col justify-center">
+                        <h3 class="font-serif font-bold text-2xl text-navy-charcoal mb-6">Contact Us</h3>
+                        
+                        <div class="space-y-6">
+                            <div>
+                                <p class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Service Area</p>
+                                <p class="text-navy-charcoal font-semibold">Holladay, Cottonwood Heights, Sugar House & Millcreek</p>
+                            </div>
+                            
+                            <div>
+                                <p class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Phone</p>
+                                <a href="tel:+13854349056" class="text-2xl font-serif font-bold text-navy-charcoal hover:text-burnt-orange transition-colors">
+                                    (385) 434-9056
+                                </a>
+                            </div>
+
+                            <div>
+                                <p class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Hours</p>
+                                <p class="text-gray-600">Mon - Fri: 8:00 AM - 5:00 PM</p>
+                            </div>
+
+                            <a href="https://maps.google.com" target="_blank" class="inline-block bg-navy-charcoal text-white text-center font-bold py-3 rounded hover:bg-burnt-orange transition-colors mt-4">
+                                Get Directions
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Map -->
+                    <div class="lg:w-2/3 h-64 lg:h-auto min-h-[300px] relative">
+                         <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48389.98335345719!2d-111.8250!3d40.6690!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQwJzE1LjYiTiAxMTHCsDQ5JzMwLjAiVw!5e0!3m2!1sen!2sus!4v1655555555555!5m2!1sen!2sus" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Map Location of CLK Handyman">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-white border-t border-gray-100 py-10">
+            <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+                <div class="mb-4 md:mb-0">
+                    <p class="font-bold text-navy-charcoal">CLK Handyman Services</p>
+                    <p>4500 S Highland Dr, Holladay, UT 84117</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="hover:text-burnt-orange transition-colors">Privacy</a>
+                    <a href="#" class="hover:text-burnt-orange transition-colors">Terms</a>
+                </div>
+                <div class="mt-4 md:mt-0">
+                    <p>&copy; 2026 CLK Handyman. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+</html>
